@@ -61,7 +61,7 @@
   margin-bottom: 20px;
 }
 .search-bar {
-  width: auto;
+  width: 70%;
   height: auto;
   background-color: #fff;
   margin: 30px auto;
@@ -71,7 +71,7 @@
   justify-content: space-between;
 }
 form {
-  width: auto;
+  width: 100%;
   padding: 8px 10px;
   display: flex;
   flex-wrap: wrap;
@@ -310,7 +310,7 @@ form input {
     padding-top: 20px;
   }
   .search-bar {
-    width: 100%;
+    width: auto;
   }
   form input {
     margin: auto;
