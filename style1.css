@@ -61,7 +61,7 @@
   margin-bottom: 20px;
 }
 .search-bar {
-  width: 70%;
+  width: auto;
   height: auto;
   background-color: #fff;
   margin: 30px auto;
