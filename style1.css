@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.header {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("images/banner.png");
+  background-size: cover;
+  background-position: center;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7%;
+}
+.logo {
+  margin-top: 20px;
+  width: 140px;
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-links li {
+  margin: 30px 35px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+.register-btn {
+  border-radius: 50px;
+  color: black;
+  text-decoration: none;
+  background-color: #fff;
+  width: 150px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.container {
+  padding: 0 7%;
+}
+.container h1 {
+  color: #fff;
+  font-size: 4vw;
+  text-align: center;
+  padding-top: 22%;
+  margin-bottom: 20px;
+}
+.search-bar {
+  width: 70%;
+  height: auto;
+  background-color: #fff;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 60px;
+  justify-content: space-between;
+}
+form {
+  width: 100%;
+  padding: 8px 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #ff5361;
+}
+form input {
+  outline: none;
+  border: 0;
+}
+.location-input {
+  margin-left: 50px;
+  flex: 1;
+}
+form label {
+  font-weight: 600;
+  font-size: 18px;
+}
+form input {
+  font-size: 15px;
+}
+.exclusive-section {
+  margin-top: 50px;
+}
+.sub-title {
+  font-size: 2.5vw;
+  font-weight: 500;
+  color: #333;
+}
+.exclusives {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.exclusives img {
+  width: 100%;
+  border-radius: 10px;
+}
+.exclusives span {
+  text-align: center;
+  position: relative;
+  top: -50%;
+  color: white;
+}
+
+.trending {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+
+.trending img {
+  width: 100%;
+  border-radius: 10px;
+}
+.travellers {
+  margin-top: 50px;
+}
+.stories {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+.stories img {
+  width: 100%;
+  border-radius: 10px;
+}
+.stories {
+  text-align: center;
+}
+.stories p {
+  position: relative;
+  padding-left: 50px;
+  width: 80%;
+  top: -50%;
+  left: 5%;
+  color: white;
+  font-size: 1.5vw;
+}
+.cpl-section {
+  margin-top: 50px;
+}
+.cpl {
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #3f2321, transparent),
+    url("images/banner-2.png");
+  background-size: cover;
+  background-position: center;
+  height: 25vw;
+  position: relative;
+}
+
+.cpl h2 {
+  padding: 30px 0px 0px 60px;
+  font-size: 4vw;
+  font-weight: 500;
+  color: #fff;
+}
+.cpl p {
+  padding: 10px 0px 0px 60px;
+  color: white;
+  font-size: 18px;
+}
+.cpl button {
+  margin: 30px 0px 0px 60px;
+  padding: 10px 25px;
+  border: 0;
+  outline: none;
+  background-color: #ff5361;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+}
+.make-money {
+  width: 25%;
+  display: block;
+  margin: auto;
+  background-color: #ff5361;
+  height: 60px;
+  outline: none;
+  border: 0;
+  color: #fff;
+  font-size: 1.3vw;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.about-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.about-section h2 {
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: #333;
+}
+.about-section p {
+  color: rgb(51, 51, 51);
+}
+.footer {
+  margin-top: 60px;
+}
+.footer hr {
+  color: rgb(51, 51, 51);
+}
+.footer a {
+  font-size: 22px;
+}
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.links a {
+  margin: 10px 10px;
+  color: rgb(145, 145, 145);
+}
+.footer p {
+  margin: 20px 20px;
+  text-align: center;
+}
+.navigation .fa-bars {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  * {
+    overflow-x: visible;
+  }
+  .logo {
+    display: block;
+  }
+  .navigation {
+    display: block;
+    position: fixed;
+  }
+  .nav-links {
+    flex-direction: column;
+    width: 100vw;
+    text-align: right;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+  .register-btn {
+    position: relative;
+    right: -40%;
+    margin-bottom: 10px;
+    background: black;
+    color: white;
+  }
+  .navigation {
+    background-color: black;
+    z-index: 100;
+    max-height: 90px;
+    overflow: hidden;
+    transition: 1s;
+  }
+  .navigation .fa-bars {
+    display: block;
+    position: fixed;
+    top: 4%;
+    right: 7%;
+    color: #fff;
+    font-size: 28px;
+  }
+  .hidemenu {
+    max-height: 400px;
+  }
+  .container h1 {
+    padding-top: 50%;
+    font-size: 6vw;
+  }
+  form {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+  }
+  .location-input {
+    position: relative;
+    left: -10%;
+  }
+  form label {
+    padding-top: 20px;
+  }
+  .search-bar {
+    width: 100%;
+  }
+  form input {
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid rgb(167, 167, 167);
+    padding: 20px 20px;
+  }
+  form div {
+    padding-bottom: 20px;
+  }
+  form button {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .cpl {
+    height: 45vw;
+  }
+  .cpl h2 {
+    font-size: 1.7em;
+    padding: 10px 0px 0px 20px;
+    line-height: 1em;
+  }
+  .cpl p {
+    font-size: 0.8em;
+    padding: 10px 0px 0px 20px;
+    letter-spacing: 1px;
+  }
+  .cpl button {
+    height: auto;
+    margin: 10px 0px 0px 20px;
+    border: 0;
+    outline: none;
+    background-color: #ff5361;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px 10px;
+  }
+  .stories p {
+    font-size: 25px;
+  }
+  .sub-title {
+    font-size: 7vw;
+  }
+  .make-money {
+    font-size: 12px;
+    height: 40px;
+    width: auto;
+    padding: 10px 10px;
+  }
+  .about-section {
+    margin-top: 50px;
+  }
+  .about-section h2 {
+    font-size: 5vw;
+  }
+  .about-section p {
+    font-size: 3vw;
+  }
+}
