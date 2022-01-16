@@ -298,6 +298,7 @@ form input {
     font-size: 6vw;
   }
   form {
+     padding: 0px 30px;
     position: relative;
     text-align: center;
     justify-content: center;
