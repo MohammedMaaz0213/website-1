@@ -275,6 +275,9 @@ form input {
     background: black;
     color: white;
   }
+  form input{
+    width:225px;
+  }
   .navigation {
     background-color: black;
     z-index: 100;
