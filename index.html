@@ -5,236 +5,207 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website-1</title>
-    <link rel="stylesheet" href="style1.css" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
-      integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
-      integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   </head>
+
   <body>
     <div class="header">
-      <div id="navBar" class="navigation">
+      <nav id="navBar">
         <img class="logo" src="images/logo.png" alt="" />
         <ul class="nav-links">
-          <li><a href="listing.html">Popular Places</a></li>
+          <li><a  class="active" href="">Popular Places</a></li>
           <li><a href="">Travel Outside</a></li>
           <li><a href="">Online Packages</a></li>
-          <a class="register-btn" href="">Register Now</a>
-          <i class="fas fa-bars" onclick="toggleBtn()"></i>
         </ul>
-      </div>
+        <a href="" class="register-btn">Register Now</a>
+        <i class="fas fa-bars" onclick="toggleBtn()"></i>
+      </nav>
 
-      <div class="container">
-        <h1>Find Your Next Stay</h1>
-
-        <div class="search-bar">
+      <div data-aos-delay="300" data-aos="fade-up" class="container">
+        <h1 >Find Your Next Stay</h1>
+        <div  class="search-bar">
           <form>
             <div class="location-input">
-              <p><label>Location</label></p>
+              <label>Location</label>
               <input type="text" placeholder="Where are you going" />
             </div>
             <div>
-              <p><label>Check in</label></p>
+              <label>Check in</label>
               <input type="text" placeholder="Add Date" />
             </div>
-            <div>
-              <p><label>Check out</label></p>
-              <input type="text" placeholder="Add Date" />
-            </div>
-            <div>
-              <p><label>Guest</label></p>
 
+            <div>
+              <label>Check out</label>
+              <input type="text" placeholder="Add Date" />
+            </div>
+
+            <div>
+              <label>Guest</label>
               <input type="text" placeholder="Add Guest" />
             </div>
+            <button type="submit">
 
-            <button><img src="images/search.png" alt="" /></button>
-          </form>
+        </form>
+            <img src="images/search.png" alt="" />
+          </button>
         </div>
       </div>
     </div>
+   <div class="container">
+     <h2 data-aos="zoom-out-right" class="sub-title">Exclusives</h2>
+     <div data-aos="zoom-out-right" class="exclusives">
+     <div>
+       <img src="images/image-1.png" alt="">
+       <span>
+         <h3>London</h3>
+         <p>Starts @ $250</p>
+       </span>
+     </div>
+     <div>
+      <img src="images/image-2.png" alt="">
+      <span>
+        <h3>London</h3>
+        <p>Starts @ $250</p>
+      </span>
+    </div>
+    <div>
+      <img src="images/image-3.png" alt="">
+      <span>
+        <h3>London</h3>
+        <p>Starts @ $250</p>
+      </span>
+    </div>
+    <div>
+      <img src="images/image-4.png" alt="">
+      <span>
+        <h3>London</h3>
+        <p>Starts @ $250</p>
+      </span>
+    </div>
+    <div>
+      <img src="images/image-5.png" alt="">
+      <span>
+        <h3>London</h3>
+        <p>Starts @ $250</p>
+      </span>
+    </div>
+    <div>
+      <img src="images/image-5.png" alt="">
+      <span>
+        <h3>London</h3>
+        <p>Starts @ $250</p>
+      </span>
+    </div>
+    <div>
+      <img src="images/image-5.png" alt="">
+      <span>
+        <h3>London</h3>
+        <p>Starts @ $250</p>
+      </span>
+    </div>
+    <div>
+      <img src="images/image-5.png" alt="">
+      <span >
+        <h3>London</h3>
+        <p>Starts @ $250</p>
+      </span>
+    </div>
+    <div>
+      <img src="images/image-5.png" alt="">
+      <span>
+        <h3>London</h3>
+        <p>Starts @ $250</p>
+      </span>
+    </div>
+    <div>
+      <img src="images/image-5.png" alt="">
+      <span>
+        <h3>London</h3>
+        <p>Starts @ $250</p>
+      </span>
+    </div>
+   </div>
 
-    <div class="container">
-      <div class="exclusive-section">
-        <h2 class="sub-title">EXCLUSIVES</h2>
-        <div class="exclusives">
-          <div>
-            <img src="images/image-1.png" alt="" />
-            <span>
-              <h3>London</h3>
-              <p>Starts @ $250</p>
-            </span>
-          </div>
-          <div>
-            <img src="images/image-1.png" alt="" />
-            <span>
-              <h3>London</h3>
-              <p>Starts @ $250</p>
-            </span>
-          </div>
-          <div>
-            <img src="images/image-1.png" alt="" />
-            <span>
-              <h3>London</h3>
-              <p>Starts @ $250</p>
-            </span>
-          </div>
-          <div>
-            <img src="images/image-1.png" alt="" />
-            <span>
-              <h3>London</h3>
-              <p>Starts @ $250</p>
-            </span>
-          </div>
-          <div>
-            <img src="images/image-1.png" alt="" />
-            <span>
-              <h3>London</h3>
-              <p>Starts @ $250</p>
-            </span>
-          </div>
-          <div>
-            <img src="images/image-1.png" alt="" />
-            <span>
-              <h3>London</h3>
-              <p>Starts @ $250</p>
-            </span>
-          </div>
-          <div>
-            <img src="images/image-1.png" alt="" />
-            <span>
-              <h3>London</h3>
-              <p>Starts @ $250</p>
-            </span>
-          </div>
-          <div>
-            <img src="images/image-1.png" alt="" />
-            <span>
-              <h3>London</h3>
-              <p>Starts @ $250</p>
-            </span>
-          </div>
-          <div>
-            <img src="images/image-1.png" alt="" />
-            <span>
-              <h3>London</h3>
-              <p>Starts @ $250</p>
-            </span>
-          </div>
-          <div>
-            <img src="images/image-1.png" alt="" />
-            <span>
-              <h3>London</h3>
-              <p>Starts @ $250</p>
-            </span>
-          </div>
-        </div>
+   <h3 class="sub-title">Trending Places</h3>
+   <div class="trending">
+     <div>
+       <img src="images/dubai.png" alt="">
+       <h3>Dubai</h3>
       </div>
+      <div>
+        <img src="images/dubai.png" alt="">
+        <h3>Dubai</h3>
+       </div>
+       <div>
+        <img src="images/dubai.png" alt="">
+        <h3>Dubai</h3>
+       </div>
+       <div>
+        <img src="images/dubai.png" alt="">
+        <h3>Dubai</h3>
+       </div>
+   </div>
 
-      <div class="trending-section">
-        <h2 class="sub-title">TRENDING PLACES</h2>
-        <div class="trending">
-          <div>
-            <img src="images/dubai.png" alt="" />
-            <h3>Dubai</h3>
-          </div>
-          <div>
-            <img src="images/dubai.png" alt="" />
-            <h3>Dubai</h3>
-          </div>
-          <div>
-            <img src="images/dubai.png" alt="" />
-            <h3>Dubai</h3>
-          </div>
-          <div>
-            <img src="images/dubai.png" alt="" />
-            <h3>Dubai</h3>
-          </div>
+   <div class="cta">
+     <h3>Sharing<br> is earing now</h3>
+     <p>Lorem ipsum dolor sit, <br> amet consectetur adipisicing.</p>
+    <a href="" class="cta-btn">Know More</a>
+    </div>
 
-          <div></div>
-        </div>
+
+    <h2 class="sub-title">Travellers Stories</h2>
+    <div class="stories">
+      <div class="div1">
+        <img src="images/story-1.png" alt="">
+        <div class="d1"></div>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
-
-      <div class="cpl-section">
-        <div class="cpl">
-          <h2>
-            Sharing
-            <br />
-            is earning now
-          </h2>
-          <p>
-            Lorem ipsum dolor <br />
-            sit, amet consectetur adipisicing.
-          </p>
-          <button>Know More</button>
-        </div>
+      <div>
+        <img src="images/story-2.png" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
-
-      <div class="travellers">
-        <h2 class="sub-title">TRAVELLERS STORIES</h2>
-        <div class="stories">
-          <div>
-            <img src="images/story-1.png" alt="" />
-            <p>Lorem ipsum dolor sit amet, consec tetur adng elit.</p>
-          </div>
-          <div>
-            <img src="images/story-1.png" alt="" />
-            <p>Lorem ipsum dolor sit amet, consec tetur adelit.</p>
-          </div>
-          <div>
-            <img src="images/story-1.png" alt="" />
-            <p>Lorem ipsum dolor sit amet, conse ctetur g elit.</p>
-          </div>
-        </div>
-      </div>
-
-      <button class="make-money">Start Making Money</button>
-
-      <div class="about-section">
-        <h2>About Staybnb</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
-          dolore, quidem quisquam veniam temporibus adipisci, consequatur
-          corporis libero nulla repudiandae in ab officiis pariatur porro
-          facilis vero voluptas tempora aliquid neque. Vero rerum aspernatur
-          debitis, officiis autem est ratione delectus consequuntur repellendus
-          corporis enim illum aliquid sed fuga ex perferendis.
-        </p>
-      </div>
-
-      <div class="footer">
-        <div class="links">
-          <a href=""><i class="fab fa-facebook-f"></i></a>
-          <a href=""><i class="fab fa-youtube"></i></a>
-          <a href=""><i class="fab fa-twitter"></i></a>
-          <a href=""><i class="fab fa-linkedin-in"></i></a>
-          <a href=""><i class="fab fa-instagram"></i></a>
-        </div>
-        <hr />
-        <p>Copyright @ 2021 , Mohammed Maaz</p>
+      <div>
+        <img src="images/story-3.png" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
     </div>
 
-    <script>
-      navBar = document.getElementById("navBar");
-      function toggleBtn() {
-        navBar.classList.toggle("hidemenu");
-      }
-    </script>
+    
+  <a href="" class="start-btn">Start Making Money</a>
+
+  <div class="about-msg">
+    <h2>About Staybnb</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur, cupiditate aliquid itaque repellendus voluptatibus dolorum hic sequi odit fugiat molestiae eveniet, quasi illo odio atque! Reiciendis, explicabo labore libero dolorum ducimus velit fuga corporis tempora? Sit aliquid sequi itaque, laboriosam consectetur repellat exercitationem at nemo? Perspiciatis laboriosam velit dolorem commodi totam eius quia nesciunt, vero saepe aspernatur nostrum vitae.
+    </p>
+  </div>
+
+  <div class="footer">
+ <a href=""><i class="fab fa-facebook-f"></i></a>
+ <a href=""><i class="fab fa-youtube"></i></a>
+ <a href=""><i class="fab fa-twitter"></i></a>
+ <a href=""><i class="fab fa-linkedin-in"></i></a>
+ <a href=""><i class="fab fa-instagram"></i></a  >
+<hr>
+<p>Copyright @ 2021 , Mohammed Maaz</p>
+
+  </div>
+</div>
+
+
+<script>
+  navBar = document.getElementById('navBar');
+  function toggleBtn(){
+    navBar.classList.toggle('hidemenu');
+  }
+</script>
+<script>
+  AOS.init();
+</script> 
   </body>
 </html>
